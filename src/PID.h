@@ -1,6 +1,7 @@
 #ifndef PID_H
 #define PID_H
 
+
 class PID {
 public:
   /*
@@ -12,7 +13,7 @@ public:
 
   /*
   * Coefficients
-  */ 
+  */
   double Kp;
   double Ki;
   double Kd;
@@ -41,6 +42,8 @@ public:
   * Calculate the total PID error.
   */
   double TotalError();
+
+
 };
 
 #endif /* PID_H */
